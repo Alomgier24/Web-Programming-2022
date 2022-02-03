@@ -38,3 +38,18 @@ list-style-type: none;
 color: #7C1A00;
 
 }
+
+nav li {
+  margin: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #7C1A00;
+  background-color: #ffe597;
+}
+
+nav a {
+color: white;
+background-color: #8c9273;
+padding: 3px 60px 3px 3px;
+text-decoration: none;
+}
