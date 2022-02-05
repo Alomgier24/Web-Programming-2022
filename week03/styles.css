@@ -57,7 +57,7 @@ nav a:hover {
   background-color: 7C1A00;
 }
 
-content id {
+article {
 background-image: url("trans-bg.gif");
 border: 1px #CCCCCC;
 margin-left: 180px;
@@ -91,7 +91,7 @@ padding-left: 20px;
 }
 
 global blockquote {
-background-color: #FFE597;
+background-color: #ffe597;
 }
 
 ul {
