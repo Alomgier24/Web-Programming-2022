@@ -22,7 +22,7 @@ header h1 {
   
 }
 
-#container id {
+#container {
 margin-bottom: 30px;
 }
 
@@ -57,11 +57,12 @@ nav a:hover {
 background-color: 7C1A00;
 }
 
-#content id {
+#content {
 background-image: url("trans-bg.gif");
-border: 1px #CCCCCC;
+border: 1px;
+border-style: solid;
 margin-left: 180px;
-padding: 10px 10px 10px 10px;
+padding: 10px;
 }
 
 footer {
