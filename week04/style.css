@@ -59,7 +59,7 @@ html, body {
     flex-flow: row wrap;
   }
   
-  main, header, nav, article, aside, footer, section {
+  main, header, nav, article, aside, footer {
     background-color: #f0ead6;
     padding: 1%;
   }
@@ -111,7 +111,7 @@ html, body {
     display: flex;
   }
   
-  article, section {
+  article {
     flex: 4;
   }
   
