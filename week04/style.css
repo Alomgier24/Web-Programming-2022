@@ -58,7 +58,7 @@ html, body {
   }
   
   main, header, nav, article, aside, footer {
-    background-color: #f0ead6;
+    background-color: none;
     padding: 1%;
   }
   
