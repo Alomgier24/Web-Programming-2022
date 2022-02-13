@@ -14,9 +14,6 @@ html, body {
     width: 70%;
     min-width: 800px;
     margin: 0 auto;
-    background-image: url("tortilla-pizza-recipe4.jpg"); 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
   }
   
   /* || typography */
@@ -44,6 +41,7 @@ html, body {
   
   h3 {
     font-size: 2.2rem;
+    image: url("tortilla-pizza-recipe4.jpg"), no-repeat, fixed; 
   }
   
   p, li {
