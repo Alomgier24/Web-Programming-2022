@@ -1,29 +1,24 @@
-<<!DOCTYPE html>
-
+<!DOCTYPE html>
+<html>
 <head>
 
-        <script>
-            var ford = 17.68;
-            var nissan = 10.50;
-            var ethereum = 26.33;
-            var att = 23.88;
-            var raytheon = 94.06;
-
-        </script>
-
-</head>
-
-<html>
-    <body>
-
-        <h2>Today's stock prices.</h2>
-        <script>
-            document.write("Ford:" + ford + "<br>");
-            document.write("Nissan: " + nissan + "<br>")
-            document.write("Ethereum Classic:" + Ethereum + "<br>")
-            document.write("AT&T:" + att + "<br>")
-            document.write("Raytheon:" + raytheon + "<br>")
-        </script> 
-
-    </body>
+    <script>
+      function showEvent(from, text) {
+        alert( from + text );}
+        showEvent('Load', 'a Page');
+    </script>
+  
+  <title>A button function</title>
+  </head>
+  <body onload="showEvent('Hello Page!','The page has loaded.')">
+    <p>Click to trigger a function:</p>
+    <button onclick="myFunction()">Click Me!</button>
+    <p id="text"></p>
+    
+    <script>
+      function myFunction() {
+      document.getElementById("demo").innerHTML = "Hello World"; Congratulation, you clicked the button";
+      }
+    </script>
+  </body>
 </html>
