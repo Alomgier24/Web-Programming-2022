@@ -1,9 +1,17 @@
 @charset "utf-8";
 
-<style>
-      background-image: url("earth.jpg");
+body {
+    font-family: "Georgia", serif;
+    color:black;
+    line-height: 140%;
+    margin: 30px;
+    background-image: url("Earth"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f7f3de;
+}
 
-    div#clock {
+  div#clock {
       text-align: center;
       background-color: #333333;
       width: 200px
@@ -22,5 +30,3 @@
        font-size: 48px;
          
        }  
-       
-  </style>
